@@ -8,7 +8,7 @@ import Sobre from './paginas/Sobre'
 import Pag404 from './paginas/Pag404'
 import Cabecalho from './assets/components/Cabecalho'
 
-// Para rodar o json-server usamos o comando $ json-server --watch db.json --port 5000
+// Para rodar o json-server usamos o comando $ npx json-server --watch db.json --port 5000
 
 function App() {
   
