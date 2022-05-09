@@ -41,7 +41,7 @@ const Categoria = () => {
                 }
             </ul>
 
-            {/* <Switch>
+            <Switch>
                 <Route exact path={`${path}/`}>
                     <ListaPost url={`/posts?categoria=${id}`} />
                 </Route>
@@ -49,12 +49,7 @@ const Categoria = () => {
                 <Route path={`${path}/:subcategoria`}>
                     <SubCategoria />
                 </Route>
-            </Switch> */}
-
-            {/* <Switch>
-                <Route index element={<ListaPost url={`/posts?categoria=${id}`} /> } />
-                <Route path=':subcategoria' element={<SubCategoria />} />
-            </Routes> */}
+            </Switch>
 
         </>
     )
